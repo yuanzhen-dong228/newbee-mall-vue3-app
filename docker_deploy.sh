@@ -22,4 +22,4 @@ docker rm -f $container
 docker rmi $image
 
 docker build -t $image .
-docker run -d --name $container -p 8080:8080 $image
+docker run -d --name $container -p 8081:8080 $image
